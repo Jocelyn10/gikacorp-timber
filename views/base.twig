@@ -1,0 +1,10 @@
+{% include 'html-header.twig' %}
+<body>
+	{% include './partial/header.twig' %}
+	<div id="nav-background"></div>
+	{% include './partial/fullscreen-menu.twig' %}
+	{% block content %}{% endblock %}
+
+	{% include './partial/footer.twig' %}
+	{{ function('wp_footer') }}
+</body></html>
