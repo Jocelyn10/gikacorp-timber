@@ -11118,5 +11118,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.nav-wrapper {
+  transition: background-color 0.5s ease !important;
+  background-color: red;
+  color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
