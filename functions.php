@@ -35,11 +35,13 @@ add_action('wp_enqueue_scripts', 'register_stylesheets');
  * Script
  * This code helps us to use our script override wordpress script
  */
-function register_scripts()
+function register_custom_scripts()
 {
+	wp_enqueue_script('iconify', 'https://code.iconify.design/1/1.0.7/iconify.min.js', array(), null, 'all');
+	wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), null, 'all', true);
 	wp_enqueue_script('main-script', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), null, 'all', true);
 }
-add_action('wp_enqueue_scripts', 'register_scripts');
+add_action('wp_enqueue_scripts', 'register_custom_scripts');
 
 /**
  * This ensures that Timber is loaded and available as a PHP class.
