@@ -11148,7 +11148,7 @@ body {
 }
 
 .content {
-  max-width: 1250px;
+  width: 100%;
   margin: auto;
   padding: 0px 30px;
 }
@@ -11170,7 +11170,7 @@ body {
 .navbar .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navbar .logo a {
