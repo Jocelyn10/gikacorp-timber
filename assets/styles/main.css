@@ -11227,6 +11227,11 @@ body {
     overflow: hidden;
   }
 
+  .navbar .content {
+    align-items: unset;
+    justify-content: space-between;
+  }
+
   .icon {
     display: block;
     height: 50px;
