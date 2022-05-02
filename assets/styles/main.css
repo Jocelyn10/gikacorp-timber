@@ -11186,6 +11186,9 @@ body {
 .navbar .menu-list li a:hover {
   color: #8f5f34;
 }
+.navbar img {
+  width: 90px;
+}
 
 .icon {
   display: none;
