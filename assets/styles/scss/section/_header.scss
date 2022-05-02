@@ -21,7 +21,6 @@
   }
 
   .logo a {
-    color: $main-white;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
@@ -29,6 +28,7 @@
 
   .menu-list {
     display: inline-flex;
+    margin: 0;
 
     li {
       list-style: none;
